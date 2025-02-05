@@ -5,11 +5,27 @@ import 'package:shared_preferences/shared_preferences.dart';
 class HomeController extends GetxController {
   List pets1 = pets;
   List pets2 = pets;
+  List petsHistory = [];
 
   @override
   void onInit() {
     super.onInit();
     updatePetsFromLocalStorage();
+    getPetHistory();
+  }
+
+  getPetHistory() async {
+    petsHistory = [];
+    final prefs = await SharedPreferences.getInstance();
+    List<String> adoptedCurrent = prefs.getStringList("adopted") ?? [];
+    print(adoptedCurrent);
+    for (var i = 0; i < adoptedCurrent.length; i++) {
+      for (var j = 0; j < pets.length; j++) {
+        if (adoptedCurrent[i] == pets1[j]["name"]) {
+          petsHistory.add(pets1[j]);
+        }
+      }
+    }
   }
 
   updatePetsFromLocalStorage() async {

@@ -82,7 +82,7 @@ List pets = [
   {
     "image":
         "https://images.unsplash.com/photo-1556227702-d1e4e7b5c232?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    "name": "Lazoo",
+    "name": "Sinju",
     "location": "Phnom Penh, Cambodia",
     "is_favorited": true,
     "description":
@@ -132,8 +132,127 @@ List pets = [
   },
   {
     "image":
+        "https://images.unsplash.com/photo-1588269845464-8993565cac3a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    "name": "Tommy",
+    "location": "Phnom Penh, Cambodia",
+    "is_favorited": false,
+    "description":
+        "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+    "rate": 4.5,
+    "id": "pid001",
+    "price": "\$1,250",
+    "owner_name": "Sangvaleap",
+    "owner_photo": profile,
+    "sex": "Male",
+    "age": "5 Months",
+    "color": "Brown",
+  },
+  {
+    "image":
+        "https://images.unsplash.com/photo-1556227702-d1e4e7b5c232?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    "name": "Aazoo",
+    "location": "Phnom Penh, Cambodia",
+    "is_favorited": true,
+    "description":
+        "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+    "rate": 4.5,
+    "id": "pid001",
+    "price": "\$1,250",
+    "owner_name": "Sangvaleap",
+    "owner_photo": profile,
+    "sex": "Male",
+    "age": "5 Months",
+    "color": "Brown",
+  },
+  {
+    "image":
         "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
     "name": "Roka",
+    "location": "Phnom Penh, Cambodia",
+    "is_favorited": false,
+    "description":
+        "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+    "rate": 4.5,
+    "id": "pid001",
+    "price": "\$1,250",
+    "owner_name": "Sangvaleap",
+    "owner_photo": profile,
+    "sex": "Male",
+    "age": "5 Months",
+    "color": "Brown",
+  },
+  {
+    "image":
+        "https://images.unsplash.com/photo-1588269845464-8993565cac3a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    "name": "Caca",
+    "location": "Phnom Penh, Cambodia",
+    "is_favorited": false,
+    "description":
+        "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+    "rate": 4.5,
+    "id": "pid001",
+    "price": "\$1,250",
+    "owner_name": "Sangvaleap",
+    "owner_photo": profile,
+    "sex": "Male",
+    "age": "5 Months",
+    "color": "Brown",
+  },
+  {
+    "image":
+        "https://images.unsplash.com/photo-1556227702-d1e4e7b5c232?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    "name": "Luza",
+    "location": "Phnom Penh, Cambodia",
+    "is_favorited": true,
+    "description":
+        "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+    "rate": 4.5,
+    "id": "pid001",
+    "price": "\$1,250",
+    "owner_name": "Sangvaleap",
+    "owner_photo": profile,
+    "sex": "Male",
+    "age": "5 Months",
+    "color": "Brown",
+  },
+  {
+    "image":
+        "https://images.unsplash.com/photo-1598875184988-5e67b1a874b8?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    "name": "Rishu",
+    "location": "Phnom Penh, Cambodia",
+    "is_favorited": false,
+    "description":
+        "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+    "rate": 4.5,
+    "id": "pid001",
+    "price": "\$1,250",
+    "owner_name": "Sangvaleap",
+    "owner_photo": profile,
+    "sex": "Male",
+    "age": "5 Months",
+    "color": "Brown",
+  },
+  {
+    "image":
+        "https://images.unsplash.com/photo-1587764379873-97837921fd44?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    "name": "Jadu",
+    "location": "Phnom Penh, Cambodia",
+    "is_favorited": false,
+    "description":
+        "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+    "rate": 4.5,
+    "id": "pid001",
+    "price": "\$1,250",
+    "owner_name": "Sangvaleap",
+    "owner_photo": profile,
+    "sex": "Male",
+    "age": "5 Months",
+    "color": "Brown",
+  },
+  {
+    "image":
+        "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    "name": "Feka",
     "location": "Phnom Penh, Cambodia",
     "is_favorited": false,
     "description":

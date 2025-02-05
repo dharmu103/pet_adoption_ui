@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:pet_adoption_app/controller/controller.dart';
 import 'package:pet_adoption_app/screens/details_page.dart';
 import 'package:pet_adoption_app/screens/history_page.dart';
 
@@ -24,6 +26,9 @@ class _MainHomePageState extends State<MainHomePage> {
           unselectedLabelStyle: const TextStyle(fontWeight: FontWeight.bold),
           currentIndex: selectedIndex,
           onTap: (value) {
+            if (value == 1) {
+              Get.find<HomeController>().getPetHistory();
+            }
             setState(() {
               selectedIndex = value;
             });
